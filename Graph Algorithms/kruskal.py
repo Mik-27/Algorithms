@@ -5,7 +5,7 @@ class Graph:
 
     def __init__(self, vertices):
         """
-            Arg:
+            Attributes:
                 vertices - No of vertices in the graph
         """
         self.V = vertices
