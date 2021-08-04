@@ -12,7 +12,7 @@ class Graph:
         """
         self.V = vertices
         self.graph = [[0 for col in range(vertices)] 
-                    for rpw in range(vertices)]
+                    for row in range(vertices)]
 
     def minDistance(self, dist, visited):
         """Function to find the minimum distance from 'dist' array for node
