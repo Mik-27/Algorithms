@@ -31,3 +31,7 @@ def assembly_line(a, t, e, x):
                     f1[i-1] + t[0][i] + a[1][i])
         
     return min(f1[n-1] + x[0], f2[n-1] + x[1])
+
+"""
+    Time Complexity: O(n)
+"""
